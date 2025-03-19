@@ -1,5 +1,7 @@
+
 // Custom cursor functionality
 document.addEventListener('DOMContentLoaded', () => {
+
     const cursorDot = document.querySelector('.cursor-dot');
     const cursorOutline = document.querySelector('.cursor-outline');
 
@@ -24,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }, observerOptions);
+
 
     // Observe all sections except hero
     document.querySelectorAll('section:not(.hero)').forEach(section => {
