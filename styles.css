@@ -331,4 +331,22 @@ h2 {
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
+
+
+    .portfolio-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1.5rem;
+        background: linear-gradient(transparent, rgba(0,0,0,0.8));
+        color: #fafafa;
+        transform: none;
+        transition: none;
+    }
+
+    .portfolio-card:hover .portfolio-content {
+        transform: none;
+    }
+
 }
