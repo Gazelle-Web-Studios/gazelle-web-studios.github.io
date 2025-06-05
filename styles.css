@@ -339,6 +339,9 @@ h2 {
         grid-template-columns: 1fr;
     }
 
+    .services{
+        padding: 2rem;
+    }
 
     .portfolio-content {
         position: absolute;
