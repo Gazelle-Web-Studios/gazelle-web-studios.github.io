@@ -4,7 +4,7 @@
     --primary: #94c11f;
     --text: #013516;
     --background: #ffffff;
-    --background-darker: #f5f5f5;
+    --background-darker: #effeef;
     --header-font: 'Open Sans', sans-serif;
     --body-font: 'Open Sans', sans-serif;
     --accent-font: 'Open Sans', cursive;
@@ -358,6 +358,7 @@ header img{
 .split_content {
     flex: 1;
     width: 100%;
+    height: auto;
     padding: 1rem 0;
     gap: 1rem;
 }
@@ -485,6 +486,10 @@ header img{
     font-family: var(--header-font);
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.-mobile-reverse {
+    flex-direction: inherit;
 }
 
 /* About Section */
@@ -710,19 +715,33 @@ footer {
     width: var(--container-width);
     margin: 0 auto;
     display: flex;
+    height: auto;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer_content_box{
-    display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    display: flex;
+}
+
+.-align-center{
     align-items: center;
-    min-height: 200px;
+}
+
+.-services-center{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
+    align-items: left;
+}
+
+.blacklink{
+    color: var(--secondary);
+    text-decoration: underline;
 }
 
 .footer_content_container li{
@@ -1153,6 +1172,10 @@ footer a {
     .testimonial .author {
         font-weight: bold;
         padding: 10px;
+    }
+
+    .-mobile-reverse {
+        flex-direction: column-reverse;
     }
 
     .quote_cta_image_central{
