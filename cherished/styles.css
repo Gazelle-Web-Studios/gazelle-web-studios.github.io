@@ -422,6 +422,7 @@ header img{
 
 #hero_text{
     text-align: center;
+    padding: 0 1rem;
     text-shadow: #252525 0px 0px 5px;
 }
 
@@ -984,8 +985,16 @@ footer a {
         height: 100px;
     }
 
+    .footer_content_box{
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
     h2, h3 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
 
