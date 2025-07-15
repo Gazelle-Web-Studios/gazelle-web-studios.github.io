@@ -47,7 +47,7 @@ i{
 }
 
 /* Hero Section */
-#hero {
+.hero {
     height: 100vh;
     display: flex;
     background-color: #fafafa;
@@ -286,7 +286,6 @@ h2 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 500px;
 }
 
 .testimonial-card h3{
