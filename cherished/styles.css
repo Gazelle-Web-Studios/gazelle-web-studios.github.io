@@ -709,6 +709,10 @@ h3{
     scroll-behavior: smooth;
 }
 
+#services_quick_links {
+    display: block;
+}
+
 
 /* Footer */
 footer {
@@ -1103,6 +1107,17 @@ footer a {
     }
 
     .hidemobile{
+        display: none;
+    }
+
+    .hidemobile :nth-child(n){
+        display: none;
+    
+    }
+
+    #services_quick_links {
+        flex-direction: column;
+        align-items: center;
         display: none;
     }
 
