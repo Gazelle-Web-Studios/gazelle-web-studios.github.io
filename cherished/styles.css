@@ -709,10 +709,6 @@ h3{
     scroll-behavior: smooth;
 }
 
-#services_quick_links {
-    display: block;
-}
-
 
 /* Footer */
 footer {
@@ -1119,13 +1115,6 @@ footer a {
         display: none;
     
     }
-
-    #services_quick_links {
-        flex-direction: column;
-        align-items: center;
-        display: none;
-    }
-
     .stat img {
         width: 60px;
         height: 60px;
