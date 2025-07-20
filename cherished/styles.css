@@ -880,6 +880,7 @@ footer a {
     flex-direction: row;
     gap: 3rem;
     justify-content: center;
+
 }
 
 .formSplit{
@@ -979,6 +980,7 @@ footer a {
 /* Responsive Design */
 @media (max-width: 768px) {
 
+
     .gallery_grid {
         flex-direction: column;
     }
@@ -1025,6 +1027,8 @@ footer a {
 
     #contact_form {
         padding: 1rem;
+        max-width: 100%;
+
     }
     
     .form-group {
@@ -1140,6 +1144,8 @@ footer a {
         flex-direction: column;
         gap: 3rem;
         justify-content: center;
+        align-items: center;
+        width: 95%;
     }
     
     .formSplit{
