@@ -305,6 +305,8 @@ h2 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    
+    
 
     body{
         background: rgb(103,23,205);
@@ -329,6 +331,16 @@ h2 {
 
     h1 {
         font-size: 2rem;
+    }
+
+    .testimonial-slideshow{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .testimonial-card p{
+        font-size: 1.5rem;
+        max-width: 90%;
     }
 
     .tagline {
